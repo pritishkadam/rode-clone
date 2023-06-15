@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+
+.learn-more {
+  @apply font-avenir mx-4 text-[#ad9970] text-base font-semibold cursor-pointer;
+}
+
+.rode-button {
+  @apply font-avenir text-base font-semibold px-6 py-2 bg-[#ad9970] text-white rounded-3xl cursor-pointer;
+}
+
+.footer-title {
+  @apply text-base font-semibold mb-5;
+}
+
+.footer-link {
+  @apply leading-4 mb-4 font-medium font-avenir text-base text-[#484848] cursor-pointer;
+}
+
+@tailwind utilities;
